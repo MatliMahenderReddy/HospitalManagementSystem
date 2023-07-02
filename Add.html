@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+        .main{
+            background-image: url("./adp.jpg");
+            background-size: cover; 
+        background-repeat: no-repeat;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 700px;
+        position: fixed;   
+        }
+        .for{
+        width: 300px;
+        height: 338px;
+        position: absolute;
+        top:230px;
+        left: 560px;
+      }
+      .for form{
+        position: absolute;
+        right: 40px;
+      }
+      .for form label{
+        color: rgb(0, 60, 255);
+        font-family: sans-serif;
+        font-size: 26px;
+      }
+      .for form input {
+        color: blue;
+      }
+      .sub{
+        color: red;
+        width: 70px;
+        height: 50px;
+        background-color: rgb(224, 212, 219);
+      }
+      .ab{
+        position: absolute;
+        bottom: 500px;
+        left: 500px;
+        font-family: sans-serif;
+        font-size: 60px;
+        color: rgb(44, 174, 39);
+      }
+    </style>
+</head>
+<body>
+<div class="main">
+        <fieldset class="for">
+            <form action="Adp" method="post">
+                <pre>
+                  <label for="">ID:</label><input type="number" name="id" placeholder="Enter the id"><br><br>
+               <label for="">Name:</label><input type="text" name="name" placeholder="Enter the name"><br><br>
+              <label for="">Dicese:</label><input type="text" name="dicese" placeholder="Enter the dicese"><br><br>
+              <label for="">Place:</label><input type="text" name="place" placeholder="Enter the place"><br><br>
+              <label for="">Days:</label><input type="number" name="days" placeholder="Enter the date"><br><br>
+               <label for="">Bill:</label><input type="number" name="bill" placeholder="Enter the amount"><br><br>
+                          <input type="submit" value="ADD" class="sub">
+                </pre>
+                </form>
+        </fieldset>
+        <div class="ab"> ADD The Patient</div>
+    </div>
+</body>
+</html>
