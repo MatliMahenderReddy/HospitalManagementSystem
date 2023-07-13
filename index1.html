@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+        .main{
+            background-image: url("./hsp.jpg");
+            background-size: cover; 
+        background-repeat: no-repeat;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 700px;
+        position: fixed;
+            
+        }
+        .sub{
+            position: absolute;
+            left: 580px;
+            top: 30px;
+            font-family: sans-serif;  
+            font-size: 20px;
+        }
+        .sub a{
+            text-decoration: none;
+             color: gold;
+        }
+        .up{
+            position: absolute;
+            left: 150px;
+        }
+        .up1{
+            position: relative;
+            left: 190px;
+        }
+        .up2{
+            position: relative;
+            left: 210px;
+        }
+        .up3{
+            position: relative;
+            left: 240px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+        <div class="sub">
+            <span><a href="Add.html">ADD PATIENT</a></span>
+            <span class="up"><a href="Update.html">UPDATE PATIENT</a></span>
+            <span class="up1"><a href="Discharge.html">DISCHARGE PATIENT</a></span>
+           <span class="up2"> <button><form action="vsp" method="post"><input type="submit" value="VIEW PATIENTS"> </form></button></span>
+           <span class="up3"><button><form action="vdp" method="post"><input type="submit" value="VIEW DPATIENTS"></form></button></span>
+        </div>
+    </div>
+</body>
+</html>
